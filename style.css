@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.card {
+    background-color: rgb(87, 201, 239);
+    margin: 0 auto;
+}
+
+#multnumber {
+    font-family: cursive;
+}
+
+.firstDiv {
+    box-shadow: 0px 10px blue;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.score {
+    text-align: center;
+    border: none;
+    background-color: rgb(246, 255, 0);
+    box-shadow: 0px 3px rgb(81, 81, 75);
+    opacity: 0.75;
+}
+
+.secondDiv {
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgb(99, 66, 163);
+}
+
+.clickText {
+    background-color: rgb(106, 35, 248);
+    box-shadow: 0px 3px rgb(157, 66, 236);
+    text-align: center;
+    padding: 4%;
+}
+
+.cardnum {
+    margin: 5px;
+    background-color: white;
+    box-shadow: 0px 3px rgb(81, 81, 75);
+}
+
+.cardnum p {
+    cursor: context-menu;
+}
+
+.start {
+    border: none;
+    box-shadow: 0px 3px rgb(81, 81, 75);
+    background-color: lightblue;
+}
+
+.start:hover {
+    background-color: blue;
+    color: white;
+}
+
+.reset {
+    border: none;
+    box-shadow: 0px 3px rgb(81, 81, 75);
+    background-color: lightblue;
+}
+
+.reset:hover {
+    color: white;
+    background-color: blue;
+
+}
+
+.ptime {
+    margin: 20px 35px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: yellowgreen;
+    box-shadow: 0px 3px rgb(120, 120, 48);
+    text-align: center;
+    cursor: context-menu;
+
+
+}

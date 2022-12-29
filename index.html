@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card" style="width: 18rem;">
+            <div class="container firstDiv">
+                <div class="container">
+                    <button type="number" id="scores" class="score">score:</button>
+                </div>
+                <div class="secondDiv">
+                    <p id="multnumber"></p>
+                </div>
+
+                <div class="thirdDiv">
+                    <p class="clickText">Click on the answer below</p>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card cardnum">
+                                <p id="number1" class="fs-2 text-center mt-3" onclick="checkAnswer(1)"></p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card cardnum">
+                                <p id="number2" class="fs-2 text-center mt-3" onclick="checkAnswer(2)"></p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card cardnum">
+                                <p id="number3" class="fs-2 text-center mt-3" onclick="checkAnswer(3)"></p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card cardnum">
+                                <p id="number4" class="fs-2 text-center mt-3" onclick="checkAnswer(4)"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mt-4 justify-content-around">
+                        <button class="start col-4" onclick="start()">Start</button>
+                        <button class="reset col-4" id="reset">Reset Game</button>
+                    </div>
+                </div>
+                <!-- <div class="ptime" id="time">Time remaining:</div> -->
+                <input class="ptime" id="time" placeholder="Enter your time..." type="number">
+                <!-- <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
